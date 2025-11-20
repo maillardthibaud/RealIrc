@@ -1,6 +1,19 @@
-ft_irc - École 42 | Paris
-C++98 IRC Protocol TCP/IP 42 42 Paris
-Badge du projet push_swap
+
+# ft_irc - École 42 | Paris
+
+<div align="center">
+  <img src="https://img.shields.io/badge/language-C++98-blue" alt="C++98">
+  <img src="https://img.shields.io/badge/standard-IRC-1f425f" alt="IRC Protocol">
+  <img src="https://img.shields.io/badge/socket-TCP/IP-blue" alt="TCP/IP">
+  <img src="https://img.shields.io/badge/school-42-green" alt="42">
+  <img src="https://img.shields.io/badge/42-Paris-blue" alt="42 Paris">
+</div>
+
+###
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ayogun/42-project-badges/refs/heads/main/badges/ft_irce.png?raw=true" alt="Badge du projet push_swap">
+</div>
+
 Description
 
 Le projet ft_irc consiste à développer un serveur IRC en respectant le standard IRC tout en utilisant le langage C++98. Le serveur doit gérer plusieurs connexions simultanées et fonctionner en mode non bloquant pour permettre une communication fluide entre les clients.
