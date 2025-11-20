@@ -1,0 +1,11 @@
+for i in {1..10}; do
+    nc localhost 6667 <<EOF &
+PASS 1234
+NICK nick$i
+USER nick nicklol localhost :nicktest
+JOIN #test
+PRIVMSG #test :Hello from nick$i
+QUIT
+EOF
+done
+wait

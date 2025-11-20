@@ -1,0 +1,8 @@
+nc localhost 6667 <<EOF
+PASS
+NICK
+USER
+JOIN
+PRIVMSG
+PART
+EOF

@@ -1,0 +1,8 @@
+nc localhost 6667 <<EOF
+CAP LS
+PASS 1234
+NICK nick2
+USER nick nicklal localhost :nicktost
+JOIN #test
+PRIVMSG #test :Hello, planet!
+EOF

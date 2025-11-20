@@ -1,0 +1,3 @@
+nc localhost 6667 <<EOF
+JOIN invalid#channel
+EOF

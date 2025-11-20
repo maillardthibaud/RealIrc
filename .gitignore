@@ -1,0 +1,6 @@
+*.o
+*.d
+ircserv
+.cache
+compile_commands.json
+.log
